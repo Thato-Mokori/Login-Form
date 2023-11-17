@@ -1,0 +1,114 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to top, #FFA3FD, #E384FF) ;
+  height: 100vh;
+}
+
+.login-container {
+  width: 420px;
+  color: #fff;
+  background-color: #865DFF;
+  border-radius: 10px;
+  padding: 30px 40px;
+}
+
+.login-container h1 {
+  font-size: 2.3rem;
+  text-align: center;
+}
+
+.login-container .input-field {
+  position: relative;
+  width: 100%;
+  height: 50px;
+  margin: 30px 0;
+}
+
+.top {
+  display: block;
+  margin: 0.5rem auto;
+}
+
+.login-container .input {
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  outline: none;
+  border: none;
+  border: 2px solid rgba(225, 255, 255, 0.2);
+  border-radius: 40px;
+  font-size: 18px;
+  color: #fff;
+  padding: 20px 45px 20px 20px;
+}
+
+.login-container .input::placeholder {
+  color: #fff;
+}
+
+.login-container i {
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(70%);
+  font-size: 20px;
+}
+
+.login-container .password-box {
+  display: flex;
+  justify-content: space-between;
+  font-size: 15px;
+  margin: -15px 0 15px;
+  margin-top: 30px;
+}
+
+.password-box label input {
+  accent-color: #fff;
+  margin-right: 5px;
+}
+
+.password-box a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.password-box a:hover {
+  text-decoration: underline;
+}
+
+.login-container .login-btn {
+  width: 100%;
+  height: 45px;
+  background-color: #fff;
+  outline: none;
+  border: none;
+  border-radius: 40px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 16px;
+  color: #131313;
+}
+
+.login-container .register-link {
+  font-size: 15px;
+  text-align: center;
+  margin: 20px 0 15px;
+}
+
+.register-link p a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600
+}
+
+.register-link p a:hover {
+  text-decoration: underline;
+}
